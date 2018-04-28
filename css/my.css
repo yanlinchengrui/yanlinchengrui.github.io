@@ -11,19 +11,21 @@
 	background-image:-webkit-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:-o-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:linear-gradient(to right, #003973 0, #e5e5be 100%);
-	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
+	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}
+
+.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
 
 footer{
 	min-width:100%;
-    max-width:100%;
-    color:#fff;
+  max-width:100%;
+  color:#fff;
 	text-align:center;
 	opacity:.8;
 	padding:50px;
 	background-image:-webkit-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:-o-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:linear-gradient(to right, #003973 0, #e5e5be 100%);
-	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}footer a{color:#fff}footer a:hover{color:#fff}
+	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}
 
 :root {
   --jumbotron-padding-y: 3rem;
