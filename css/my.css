@@ -11,9 +11,16 @@
 	background-image:-webkit-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:-o-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:linear-gradient(to right, #003973 0, #e5e5be 100%);
-	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}
+	background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)
+}
 
-.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
+.jumbotron h1{
+  margin-bottom:12px;
+  font-weight:300;
+  letter-spacing:-0.3px;
+  color:#fff
+}
 
 footer{
 	min-width:100%;
@@ -25,7 +32,9 @@ footer{
 	background-image:-webkit-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:-o-linear-gradient(left, #003973 0, #e5e5be 100%);
 	background-image:linear-gradient(to right, #003973 0, #e5e5be 100%);
-	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)}
+	background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)
+}
 
 :root {
   --jumbotron-padding-y: 3rem;
@@ -43,19 +52,51 @@ footer{
   max-width: 40rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-.card-img-top {
-    width: 100%;
-    height: 17vw;
-    object-fit: cover;
+.box-shadow { 
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 }
 
 .navbar {
-    margin-bottom:0;
+  margin-bottom:0;
 }
 
+.fa-github {
+  margin: 0 0 0;
+  color: #00cdcd;
+  font-size: 1.9em;
+  transition: .3s ease-in-out;
+}
 
+.fa-github:hover {
+  color: yellow;
+}
+
+.fa-file {
+  margin: 0 0 0;
+  color: #00cdcd;
+  font-size: 1.9em;
+  transition: .3s ease-in-out;
+}
+
+.fa-file:hover {
+  color: yellow;
+}
+
+.fa-envelope {
+  margin: 0 0 0;
+  color: #00cdcd;
+  font-size: 1.9em;
+  transition: .3s ease-in-out;
+}
+
+.fa-envelope:hover {
+  color: yellow;
+}
+
+.font-italic {
+  font-size: 1.2em;
+  color: #000000;
+}
 
 .meee {
   	text-align: center;
