@@ -1,3 +1,7 @@
+.navbar {
+  margin-bottom:0;
+}
+
 .jumbotron{
 	margin-bottom:0;
 	position:relative;
@@ -26,26 +30,12 @@
   margin-bottom: 0.3em;
 }
 
-footer{
-	min-width:100%;
-  max-width:100%;
-  color:#fff;
-	text-align:center;
-	opacity:.8;
-	padding:50px;
-	background-image:-webkit-linear-gradient(left, #e5e5be 0, #003973 100%);
-	background-image:-o-linear-gradient(left, #e5e5be 0, #003973 100%);
-	background-image:linear-gradient(to right, #e5e5be 0, #003973 100%);
-	background-repeat:repeat-x;
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
 :root {
   --jumbotron-padding-y: 3rem;
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
 }
 
 .jumbotron-heading {
@@ -60,8 +50,18 @@ footer{
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 }
 
-.navbar {
-  margin-bottom:0;
+footer{
+	min-width:100%;
+  max-width:100%;
+  color:#fff;
+	text-align:center;
+	opacity:.8;
+	padding:50px;
+	background-image:-webkit-linear-gradient(left, #e5e5be 0, #003973 100%);
+	background-image:-o-linear-gradient(left, #e5e5be 0, #003973 100%);
+	background-image:linear-gradient(to right, #e5e5be 0, #003973 100%);
+	background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003973', endColorstr='#ffe5e5be', GradientType=1)
 }
 
 .fa-github {
@@ -100,15 +100,21 @@ footer{
 }
 
 .meee {
-  	text-align: center;
-  	margin-bottom: .3rem;
+  text-align: center;
+  margin-bottom: .3rem;
 }
 
 .featurette-divider {
-  margin: 3.5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3.0rem 0;
 }
 
-/* Thin out the marketing headings */
+.title-divider {
+  background-color: #a52a2a;
+  height: 1px;
+  border: 0;
+  margin: .8rem 0;
+}
+
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -124,6 +130,6 @@ footer{
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 2.5rem;
+    margin-top: 1.85rem;
   }
 }
