@@ -84,13 +84,13 @@ footer{
   color: yellow;
 }
 
-.fa-file {
+.fa-file-alt {
   color: #00cdcd;
   font-size: 2.0em;
   transition: .3s ease-in-out;
 }
 
-.fa-file:hover {
+.fa-file-alt:hover {
   color: yellow;
 }
 
