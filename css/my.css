@@ -34,20 +34,12 @@
   margin-bottom: 0;
 }
 
-:root {
-  --jumbotron-padding-y: 3rem;
-}
-
 .jumbotron-heading {
   font-weight: 300;
 }
 
 .jumbotron .container {
   max-width: 40rem;
-}
-
-.box-shadow { 
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 }
 
 footer{
@@ -115,17 +107,17 @@ footer{
 }
 
 .card-link:hover {
-  color: #e3085d;
+  color: blue;
   text-decoration: underline;
 }
 
-.card-link:visited {
+/* .card-link:visited {
   color: #e3085d;
   text-decoration: none;
-}
+} */
 
 .featurette-divider {
-  margin: 3.0rem 0;
+  margin: 2.4rem 0;
 }
 
 .title-divider {
