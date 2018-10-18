@@ -57,43 +57,47 @@ footer{
 }
 
 .fa-github {
-  color: #00cdcd;
-  font-size: 2.0em;
-  transition: .2s ease-in-out;
+  color: white;
+  font-size: 2em;
+  transition: .1s ease-in-out;
+  margin: -0.3rem -0.33rem;
 }
 
 .fa-github:hover {
-  color: yellow;
+  color: cyan;
 }
 
 .fa-linkedin {
-  color: #00cdcd;
-  font-size: 2.0em;
-  transition: .2s ease-in-out;
+  color: white;
+  font-size: 2em;
+  transition: .1s ease-in-out;
+  margin: -0.3rem -0.33rem;
 }
 
 .fa-linkedin:hover {
-  color: yellow;
+  color: cyan;
 }
 
 .fa-file-alt {
-  color: #00cdcd;
-  font-size: 2.0em;
-  transition: .2s ease-in-out;
+  color: white;
+  font-size: 2em;
+  transition: .1s ease-in-out;
+  margin: -0.3rem -0.33rem;
 }
 
 .fa-file-alt:hover {
-  color: yellow;
+  color: cyan;
 }
 
 .fa-envelope {
-  color: #00cdcd;
-  font-size: 2.0em;
-  transition: .2s ease-in-out;
+  color: white;
+  font-size: 2em;
+  transition: .1s ease-in-out;
+  margin: -0.3rem -0.33rem;
 }
 
 .fa-envelope:hover {
-  color: yellow;
+  color: cyan;
 }
 
 .font-italic {
@@ -110,11 +114,6 @@ footer{
   color: blue;
   text-decoration: underline;
 }
-
-/* .card-link:visited {
-  color: #e3085d;
-  text-decoration: none;
-} */
 
 .featurette-divider {
   margin: 2.4rem 0;
