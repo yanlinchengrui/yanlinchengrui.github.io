@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
     <link rel="stylesheet" type="text/css" href="css/my.css">
 
     <title>Peter Yan</title>
@@ -16,15 +17,15 @@
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container d-flex justify-content-between">
         <a class="navbar-brand d-flex align-items-center" href="javascript:window.location.reload(true)">
           <strong>Peter Yan</strong>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
           <div class="navbar-nav ml-auto">
               <a class="btn btn-social" href="https://github.com/yanlinchengrui" target="_blank" title="Github">
                 <i class="fab fa-github"></i>
@@ -50,10 +51,12 @@
       <div class="jumbotron text-center">
         <div class="container">
           <div class="col-md-12 meee">
-            <img class="rounded-circle" src="img/yp.jpg" alt="me" width="160" height="160">
+            <img class="rounded-circle" src="img/yp.jpg" alt="me">
           </div>
-          <h1 class="jumbotron-heading"> Hello, my name is Peter! </h1>
-          <p style="margin:0 0" class="font-italic"> BSc. in Computer Science, University of British Columbia </p>
+          <h1 class="jumbotron-heading"> Hello, my name is Peter ! </h1> 
+          <div class="typewriter">
+            <p>BSc. in Computer Science, University of British Columbia</p>
+          </div>
         </div>
       </div>
 
@@ -67,11 +70,11 @@
             <h1 class="featurette-heading">TomoMap</h1>
             <hr class="title-divider">
             <p class="lead">A web application that allows users to leave their messages and names and put icons on the map.</p>
-            <p style="font-size:13.5px; font-style: oblique; opacity: 0.75"> // Created using React, Node.js, MongoDB and deployed on Heroku and Now.sh </p>
+            <p class="proj-description"> // Created using React, Node.js, MongoDB and deployed on Heroku and Now.sh </p>
           </div>
           <div class="col-md-5 order-md-1">
             <div class="hovereffect">
-                <img style="border:3px solid black" class="featurette-image rounded img-fluid mx-auto" src="img/tomomap.gif" alt="tomomap">
+                <img class="featurette-image rounded img-fluid mx-auto" src="img/tomomap.gif" alt="tomomap">
                 <div class="overlay">
                     <h2>TomoMap</h2>
                     <a class="info" target="_blank" href="https://tomomap.now.sh/"> <i class="fas fa-link"></i>   Link here!</a>
@@ -87,11 +90,11 @@
             <h1 class="featurette-heading">Forkify Recipe App</h1>
             <hr class="title-divider">
             <p class="lead">A JavaScript web application that helps searching over 1 million recipes</p>
-            <p style="font-size:13.5px; font-style: oblique; opacity: 0.75"> // Responsible for implementing JavaScript part using JavaScript ES6, NPM, Babel and Webpack </p>
+            <p class="proj-description"> // Responsible for implementing JavaScript part using JavaScript ES6, NPM, Babel and Webpack </p>
           </div>
           <div class="col-md-5">
             <div class="hovereffect">
-                <img style="border:3px solid black" class="featurette-image rounded img-fluid mx-auto" src="img/forkify.gif" alt="forkify">
+                <img class="featurette-image rounded img-fluid mx-auto" src="img/forkify.gif" alt="forkify">
                 <div class="overlay">
                     <h2>Forkify</h2>
                     <a class="info" target="_blank" href="https://yanlinchengrui.github.io/MyForkify/"> <i class="fas fa-link"></i>   Link here!</a>
@@ -108,12 +111,12 @@
             <h1 class="featurette-heading">Players & Stats Applications</h1>
             <hr class="title-divider">
             <p class="lead">A React Native application that shows all NBA players in a given year and their career stats if available.</p>
-            <p style="font-size:13.5px; font-style: oblique; opacity: 0.75"> // Built with React Native (JavaScript and React) </p>
+            <p class="proj-description"> // Built with React Native (JavaScript and React) </p>
             <!-- <a href="https://github.com/yanlinchengrui/show-players-and-stats" class="card-link" target="_blank">Check it out on Github!</a> -->
           </div>
           <div class="col-md-5 order-md-1">
             <div class="hovereffect">
-                <img style="display:flex; justify-content:center; width:50%; border:3px solid black" class="featurette-image rounded img-fluid mx-auto" src="img/myProj.gif" alt="myProj">
+                <img class="featurette-image rounded img-fluid mx-auto nba" src="img/myProj.gif" alt="myProj">
                 <div class="overlay">
                     <h2>NBA Players & Stats</h2>
                     <a class="info" target="_blank" href="https://github.com/yanlinchengrui/show-players-and-stats"> <i class="fab fa-github-square"></i>    Github</a>
@@ -129,12 +132,12 @@
             <h1 class="featurette-heading">Comic Web Application</h1>
             <hr class="title-divider">
             <p class="lead">A web platform for the creation and visualization of comic strips designed and implemented within a team of 4.</p>
-            <p style="font-size:13.5px; font-style: oblique; opacity: 0.75"> // Written in Typescript for client and server side development, and used Express for server side development </p>
+            <p class="proj-description"> // Created using TypeScript, Node.js, Express, and MongoDB </p>
             <!-- <a href="http://marvelcomiccollab.herokuapp.com/comics" class="card-link" target="_blank">Click here or the image on the right to check it out!</a> -->
           </div>
           <div class="col-md-5 order-md-2">
             <div class="hovereffect">
-                <img style="border:3px solid black" class="featurette-image rounded img-fluid mx-auto" src="img/mav.gif" alt="mav">
+                <img class="featurette-image rounded img-fluid mx-auto" src="img/mav.gif" alt="mav">
                 <div class="overlay">
                     <h2>Marvel</h2>
                     <a class="info" target="_blank" href="http://marvelcomiccollab.herokuapp.com/comics"> <i class="fas fa-link"></i>   Link here!</a>
@@ -150,6 +153,8 @@
 
     </main>
 
+    <i class="fas fa-arrow-alt-circle-up top" id="topBtn" onclick="topFunc()" title="top"></i>
+
     <!-- Footer -->
     <footer class="container">
         &copy; 2019 Peter Yan
@@ -160,5 +165,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/my.js"></script></body>
   </body>
 </html>

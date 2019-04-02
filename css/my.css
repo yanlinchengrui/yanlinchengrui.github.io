@@ -1,5 +1,25 @@
 .navbar {
   margin-bottom:0;
+  padding: 2.5px;
+}
+
+body {
+  margin: 44px 0 0 0;
+}
+
+strong {
+  font-size: 23px;
+}
+
+.rounded-circle {
+  width: 160px;
+  height: 160px;
+}
+
+.proj-description {
+  font-size:13.5px; 
+  font-style: oblique; 
+  opacity: 0.75;
 }
 
 .jumbotron{
@@ -34,7 +54,10 @@
 }
 
 .jumbotron-heading {
+  font-family: 'Indie Flower', cursive;
   font-weight: 300;
+  text-shadow: 0px 4px 3px #003973,
+               0px 6px 9px #e5e5be
 }
 
 .jumbotron .container {
@@ -112,6 +135,16 @@ footer{
 .card-link:hover {
   color: blue;
   text-decoration: underline;
+}
+
+.featurette-image {
+  border: 3px solid black;
+}
+
+.nba {
+  display: flex; 
+  justify-content: center; 
+  width: 50%;
 }
 
 .featurette-divider {
@@ -219,4 +252,43 @@ footer{
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+.typewriter p {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #000000;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .12em solid #e5e5be; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .087em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .9s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #003973 }
+}
+
+.top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  font-size: 35px;
+  color: #a52a2a;
+}
+
+.top:hover {
+  color: cyan;
 }
