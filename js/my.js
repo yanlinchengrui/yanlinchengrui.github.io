@@ -6,8 +6,10 @@ window.onscroll = function() {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("topBtn").style.display = "block";
+    document.querySelector(".navbar").classList.add("scrolled");
   } else {
     document.getElementById("topBtn").style.display = "none";
+    document.querySelector(".navbar").classList.remove("scrolled");
   }
 }
 

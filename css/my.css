@@ -1,6 +1,7 @@
 .navbar {
   margin-bottom:0;
   padding: 2.5px;
+  background: #343a40;
 }
 
 body {
@@ -291,4 +292,9 @@ footer{
 
 .top:hover {
   color: cyan;
+}
+
+.scrolled {
+  background-image:-webkit-linear-gradient(left, #003973 0, #e5e5be 100%);     
+  transition: background-image 1.0s;
 }
